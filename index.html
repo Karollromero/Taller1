@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+</head>
+
+<body>
+    <script>
+        const titulo = document.createElement("h1")
+        titulo.textContent = "Bienvenido al sitio de Deadpool"
+        document.body.appendChild(titulo)
+
+        const parrafo = document.createElement("p")
+        parrafo.textContent = "Explora las siguientes páginas para conocer más sobre Deadpool y sus frases memorables"
+        document.body.appendChild(parrafo)
+
+        const menú = document.createElement("h2")
+        menú.textContent = "Menú de Navegación"
+        document.body.appendChild(menú)
+
+        const link11 = document.createElement("a")
+        link11.href = "html/ejercicio1.html"
+        link11.textContent = "Personajes Principales"
+        document.body.appendChild(link11)
+
+        const separar = document.createElement("dd")
+        document.body.appendChild(separar)
+
+        const link12 = document.createElement("a")
+        link12.href = "html/pagina2.html"
+        link12.textContent = "Frases Memorables de Deadpool"
+        document.body.appendChild(link12)
+
+        const subtitulo = document.createElement("h2")
+        subtitulo.textContent = "¿Quien es Deadpool?"
+        document.body.appendChild(subtitulo)
+
+        const parrafofinal = document.createElement("p")
+        parrafofinal.textContent = "Deadpool, también conocido como Wade Wilson, es un anti-héroe de Marvel conocido por su humor sarcástico y sus habilidades de combate. "
+        document.body.appendChild(parrafofinal)
+
+        const imagenDeadpool = document.createElement("img")
+        imagenDeadpool.src = "recursos/deadpool.jpg"
+        imagenDeadpool.height = 180
+        imagenDeadpool.width = 290
+        document.body.appendChild(imagenDeadpool)
+    </script>
+</body>
+
+</html>
